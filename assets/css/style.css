@@ -34,6 +34,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact{
+    background-color:#ffffff;
+}
+
 /* ----------- Padding / Margins / Text ------------- */
 
 h1,
@@ -56,12 +60,6 @@ h4 {
 
 .inline-block {
     display: inline-block;
-}
-
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
 }
 
 .row-table {
@@ -259,7 +257,7 @@ footer .cv-pdf i:hover {
 .personal-info-item .value{
     display: inline-block;
     position: relative;
-    width:60%;
+    width: 60%;
 }
 
 /* ----------- Skills ------------- */
@@ -327,6 +325,32 @@ footer .cv-pdf i:hover {
     margin-bottom: 50px;
     margin-top: 20px;
 }
+
+.history-items{
+    margin-bottom: 30px;
+}
+
+/* ----------- Contact ------------- */
+
+.contact-heading{
+    font-family: "exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin:0 auto;
+    max-width: 70%;
+}
+
+.button[type="submit"]{
+    margin-top:15px;
+    margin-bottom: 20px;
+    background-color:#e84610;
+    color: #fafafa;
+}
 /* ----------- Media Queries ------------- */
 
 @media(min-width: 992px) {
@@ -335,5 +359,10 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+    .center-form{
+    padding-top:10px;
+    margin:0 auto;
+    max-width: 50%;
+}
 }
 
